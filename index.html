@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="shortcut icon" href="https://i.ibb.co/5K0hQ70/031d3e56e4cc4986221ee97450d6bb4c.jpg"/>
+    <title>D4x Aboutweb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            color: #333;
+            background: #222;
+        }
+
+        h1 {
+            color: white;
+            text-decoration: overline;
+        }
+
+        .txt {
+            color: white;
+            font-family: Courier;
+            text-align: center;
+        }
+
+        .top-nav {
+            background-color: white;
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab {
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: flex;
+            align-items: center; /* Menyamakan ikon dan teks secara vertikal */
+        }
+
+        .icon-home i {
+            font-size: 24px; /* Mengganti ukuran ikon */
+            margin-right: 12px; /* Menambahkan jarak antara ikon dan teks */
+        }
+
+        .icon-mail i {
+            font-size: 24px; /* Mengganti ukuran ikon */
+            margin-right: 16px; /* Menambahkan jarak antara ikon dan teks */
+        }
+
+        .tab:hover {
+            background-color: black;
+        }
+
+        /* Media query untuk responsivitas */
+        @media only screen and (max-width: 600px) {
+            .icon-home i {
+                font-size: 20px; /* Mengganti ukuran ikon pada breakpoint 600px */
+            }
+
+            .icon-mail i {
+                font-size: 20px; /* Mengganti ukuran ikon pada breakpoint 600px */
+            }
+
+            a {
+                text-decoration: none;
+                color: darkred;
+            }
+
+            a:hover {
+                color: tomato;
+            }
+        }
+
+        .info {
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .banjarasu {
+            color: #0366d6;
+        }
+
+        .copyright {
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+            bottom: 0;
+            width: 100%;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>D4x Aboutweb</h1>
+    <p class="txt">Hai bro! ini adalah info tentang web <span style="color: red;">D4x</span></p>
+    <div class="top-nav">
+        <a href="https://d4x.netlify.app/" class="tab icon-home"><i class="material-icons">home</i> Home</a>
+        <a href="dannnofficial2@gmail.com" class="tab icon-mail"><i class="material-icons">mail</i> Contact Us</a>
+    </div>
+    <div class="info">
+      <h2>- Info -</h2>
+        <h3>Created : 7 Januari 2024</h3>
+        <h3>Admin Web : D4x </h3>
+        <h3>Versi : 1.0.1</h3>
+        <h3>host by : <a href="https://www.netlify.app"><span style="color: #0366d6;">netlify.com</span></h3></a>
+    </div>
+    <div class="copyright">
+        &copy; 2024 <span class="banjarasu">D4x Anime List. </span>All rights reserved.
+    </div>
+</body>
+</html>
